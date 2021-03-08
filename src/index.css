@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding-left: 13rem;
+    background-color: #1D1D1D;
+    color: #fff;
+}
+.hoverable{
+    @apply hover:text-primary-400;
+}
+a{display: block;}
